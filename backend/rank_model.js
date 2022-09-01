@@ -5,7 +5,6 @@ let rankFun = (value) => {
     var scoresList = TestData.scoresList;
     var countScores, belowValue, Percentile;
     scoresList.sort((a, b) => a - b);
-  
     // Total Number of Values
     countScores = scoresList.length;
     // Number of scores below of value
