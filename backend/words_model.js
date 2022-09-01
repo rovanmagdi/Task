@@ -7,9 +7,7 @@ let loadWords = () => {
   
     wordList.map((key) => {
       if (
-        (wordList.length =
-          10 ||
-          (key.pos == "noun" &&
+        (wordList.length = 10 || (key.pos == "noun" &&
             key.pos == "adjective" &&
             key.pos == "adverb" &&
             key.pos == "verb"))
